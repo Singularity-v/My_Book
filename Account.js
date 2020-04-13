@@ -1,5 +1,5 @@
 import React from "react";
-import { View} from "react-native";
+import { View } from "react-native";
 import Header from "./src/components/Header";
 import BookList from "./src/components/BookList";
 import BottomNaver from "./src/components/BottomNaver";
@@ -10,6 +10,7 @@ const App = () => {
       <Header />
       <BookList />
       <BottomNaver />
+      
     </View>
   );
 };
