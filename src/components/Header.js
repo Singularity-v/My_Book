@@ -30,7 +30,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     viewStyle: {
-    　zIndex:2,
+    　zIndex:0,
       backgroundColor: '#00b49f',
       alignItems: 'center',
       justifyContent: 'center',

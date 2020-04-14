@@ -34,8 +34,6 @@ const BottomNaver = () => {
  const styles = StyleSheet.create({
     viewStyle: {
         elevation:2,
-        backgroundColor:"black",
-
     },
     box:{
         backgroundColor:"#ffffff",
