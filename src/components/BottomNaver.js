@@ -6,15 +6,24 @@ const BottomNaver = () => {
     <View style={styles.viewStyle}>
         <View style={styles.box}>
             <View style={styles.center}>
-                <Image style={styles.Home} source={require('./img/3.png')}/>
+            <Image
+                style={styles.iconStyle}
+                source={{uri:"https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/icon_bottomnav_home.png?token=ALVUIA7MWPL6EGSM24NI66K6SSAVO"}}
+            />
                 <Text style={styles.word}>Home</Text>
             </View>
             <View style={styles.center}>
-                <Image style={styles.book} source={require('./img/2.png')}/>
+            <Image
+                style={styles.iconStyle}
+                source={{uri: "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/icon_bottomnav_mybook_selected.png?token=ALVUIA5EJ4NBXLR6N35K43C6SSAS6"}}
+            />
                 <Text style={styles.word}>My book</Text>
             </View>
             <View style={styles.center}>
-                <Image style={styles.Favorites} source={require('./img/1.png')}/>
+            <Image
+                style={styles.iconStyle}
+                source={{uri: "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/icon_bottomnav_favorites.png?token=ALVUIA6XHPXAYXF22JT2AFK6SSAXA"}}
+            />
                 <Text style={styles.word}>Favorites</Text>
             </View>
         </View>
@@ -25,36 +34,28 @@ const BottomNaver = () => {
  const styles = StyleSheet.create({
     viewStyle: {
         elevation:2,
+        backgroundColor:"black",
+
     },
     box:{
-        backgroundColor:'#ffffff',
-        height:80,
+        backgroundColor:"#ffffff",
+        height:56,
         flexDirection:'row',
         alignItems: 'center',
         justifyContent:'space-around',
-        top:10,
         zIndex:2,
-        paddingBottom:15
+
     },
     word:{
         fontFamily:'Roboto',
-        fontSize:16,
+        fontSize:12,
         color:'#818181',
         lineHeight:20,
-        
     },
-    Home:{
-        width:40,
-        height:40,
+    iconStyle:{
+        width:24,
+        height:24,
     },
-    book:{
-        width:40,
-        height:40,
-    },
-    Favorites:{
-        width:40,
-        height:40,
-   },
    center:{
     alignItems: 'center',
     justifyContent:'center',

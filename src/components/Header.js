@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Linking,Image } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Linking,Image,Button } from 'react-native';
 
 
 const Header = () => {
@@ -7,19 +7,19 @@ const Header = () => {
     <View style={styles.viewStyle}>
         <View style={styles.headerStyle}>
         <TouchableOpacity 
-            onPress={() => Linking.openURL("https://reactnative.dev/docs/linking#openurl")}>
+            onPress={() =>navigate('Account')}>
         <Image
             source={{
-                uri:"https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/btn_navbar_mobile.png?token=ALVUIA5HZOYHR2XVZ57WVPC6SRNGK"
+                uri:"https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/btn_navbar_mobile.png?token=ALVUIA43F3DNW6CCOC6C3R26SWFZG"
             }}
             style = {styles.ImageClass}/>
         </TouchableOpacity>
         <Text style={styles.textStyle}>My Book</Text> 
         <TouchableOpacity 
-            onPress={() => Linking.openURL("https://reactnative.dev/docs/linking#openurl")}>
+            onPress={() => Linking.openURL("https://www.youtube.com/watch?v=dqRZDebPIGs")}>
         <Image
             source={{
-                uri: "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/btn_search.png?token=ALVUIA7MLEGUWE7LTPTS3BK6SRNCQ"
+                uri: "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/btn_search.png?token=ALVUIAZW4UUEE3KLYKKPS5S6SSAZC"
             }}
             style = {styles.ImageClass}/>
         </TouchableOpacity>
@@ -30,7 +30,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     viewStyle: {
-    　flex:1,
+    　zIndex:2,
       backgroundColor: '#00b49f',
       alignItems: 'center',
       justifyContent: 'center',
@@ -46,10 +46,11 @@ const styles = StyleSheet.create({
     },
     headerStyle: {
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         flexDirection: "row",
-        backgroundColor:'black',
-        width:null,height:40
+
+        width:344,
+        height:40
     },
     ImageClass:{
         width:40,

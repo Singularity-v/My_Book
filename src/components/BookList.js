@@ -73,7 +73,10 @@ const AlbumList = () => {
                     <Text style = {styles.titleStyle}>{bookData[2].title}</Text>
                     <Text style = {styles.writerStyle}>{bookData[2].writer}</Text>
                     <Text style = {styles.grayStyle}>{bookData[2].intro}</Text>
+                    <View>                    
                     <View style = {styles.lineStyle} />
+                    <View style = {styles.lineStyle1} />
+                    </View>
                     <Text style = {styles.grayStyle}>50% completed</Text>
                 </View>
             </View>
@@ -105,7 +108,6 @@ const styles = StyleSheet.create({
         paddingTop:12,
         paddingBottom:12,
       },
-
       bookimageStyle:{
         width:93,
         height:140, 
@@ -126,7 +128,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 1,
         shadowRadius: 16.00,
         
-        elevation: 5,
+        elevation: 3,
       },
 
       rowStyle: {
