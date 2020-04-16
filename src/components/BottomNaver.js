@@ -17,7 +17,7 @@ const BottomNaver = () => {
                 style={styles.iconStyle}
                 source={{uri: "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/icon_bottomnav_mybook_selected.png?token=ALVUIA5EJ4NBXLR6N35K43C6SSAS6"}}
             />
-                <Text style={styles.word}>My book</Text>
+                <Text style={styles.word1}>My book</Text>
             </View>
             <View style={styles.center}>
             <Image
@@ -48,6 +48,12 @@ const BottomNaver = () => {
         fontFamily:'Roboto',
         fontSize:12,
         color:'#818181',
+        lineHeight:20,
+    },
+    word:{
+        fontFamily:'Roboto',
+        fontSize:12,
+        color:'#00b49f',
         lineHeight:20,
     },
     iconStyle:{
