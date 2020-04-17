@@ -14,7 +14,7 @@ const Header = () => {
             }}
             style = {styles.ImageClass}/>
         </TouchableOpacity>
-        <Text style={styles.textStyle}>My Book</Text> 
+        <Text style={styles.textStyle}>My Book12323213</Text> 
         <TouchableOpacity 
             onPress={() => Linking.openURL("https://www.youtube.com/watch?v=dqRZDebPIGs")}>
         <Image
