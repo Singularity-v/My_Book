@@ -47,11 +47,13 @@ const BottomNaver = () => {
     word:{
         fontFamily:'Roboto',
         fontSize:12,
+        fontWeight:"bold",
         color:'#818181',
         lineHeight:20,
     },
-    word:{
+    word1:{
         fontFamily:'Roboto',
+        fontWeight:"bold",
         fontSize:12,
         color:'#00b49f',
         lineHeight:20,

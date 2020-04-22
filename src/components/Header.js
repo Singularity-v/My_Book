@@ -6,23 +6,18 @@ const Header = () => {
     return (
     <View style={styles.viewStyle}>
         <View style={styles.headerStyle}>
-        <TouchableOpacity 
-            onPress={() =>navigate('Account')}>
         <Image
             source={{
                 uri:"https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/btn_navbar_mobile.png?token=ALVUIA43F3DNW6CCOC6C3R26SWFZG"
             }}
             style = {styles.ImageClass}/>
-        </TouchableOpacity>
-        <Text style={styles.textStyle}>My Book12323213</Text> 
-        <TouchableOpacity 
-            onPress={() => Linking.openURL("https://www.youtube.com/watch?v=dqRZDebPIGs")}>
+        <Text style={styles.textStyle}>My Book</Text> 
+
         <Image
             source={{
                 uri: "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/btn_search.png?token=ALVUIAZW4UUEE3KLYKKPS5S6SSAZC"
             }}
             style = {styles.ImageClass}/>
-        </TouchableOpacity>
         </View>
     </View>
     );
@@ -35,7 +30,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
       flexDirection: "row",
-      height:80,
+      height:75,
       paddingTop:16,
 
       shadowColor:"#4d000000",

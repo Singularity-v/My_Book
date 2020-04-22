@@ -1,19 +1,23 @@
-[{
+[
+   {
     "title": "The Immortalists",
     "writer": "Chloe Benjamin",
     "intro":"If you were told the date of your death, how would it shape your…",
+    "percentage":"50",
     "image": "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/img_theImmortalists.png?token=ALVUIA4RZ2X3IS3ZB2PCL7K6SL6QK",
  },
  {
     "title": "Grist Mill Road",
     "writer": "Christopher J.",
     "intro":"Twenty-six years ago Hannah had her eye shot out. Now she wants…",
+    "percentage":"0",
     "image": "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/img_gristmillroad.png?token=ALVUIA2QUD4NUX7VLENYREK6SL6MA",
  },
  {
     "title": "Street Art Activity Book",
     "writer": "Mitchell Beazley",
     "intro":"Street art is colorful, vibrant, diverse and exciting.Now, you can create…",
+    "percentage":"50",
     "image": "https://raw.githubusercontent.com/Singularity-v/my_book_pics/master/Asset/img_streetartactivitybook.png?token=ALVUIAZZ4CGG5GVMAHE73O26SL6SE"
  }
 ]
